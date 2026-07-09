@@ -1,0 +1,10 @@
+{
+  "heavy_macro_f1": 0.5144823779733089,
+  "light_macro_f1": 0.5210409286586556,
+  "difference_light_minus_heavy": 0.00655855068534672,
+  "ci_95_low": -0.01102383380050874,
+  "ci_95_high": 0.02357710711101138,
+  "bootstrap_samples": 10000,
+  "test_rows": 4568,
+  "probability_difference_above_zero": 0.7698
+}

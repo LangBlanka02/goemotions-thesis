@@ -1,0 +1,37 @@
+{
+  "method": "English-German-English back-translation",
+  "pivot_language": "de",
+  "diversity_method": "top-p sampling during reverse translation",
+  "top_k": 3,
+  "aug_factor": 3,
+  "candidates_per_source": 12,
+  "maximum_attempts": 8,
+  "selected_class_ids": [
+    1,
+    2,
+    4
+  ],
+  "original_training_size": 36302,
+  "selected_source_examples": 3133,
+  "expected_synthetic_examples": 9399,
+  "generated_synthetic_examples": 9399,
+  "augmented_training_size": 45701,
+  "original_class_counts": {
+    "0": 3878,
+    "1": 497,
+    "2": 515,
+    "3": 12920,
+    "4": 2121,
+    "5": 3553,
+    "6": 12818
+  },
+  "augmented_class_counts": {
+    "0": 3878,
+    "1": 1988,
+    "2": 2060,
+    "3": 12920,
+    "4": 8484,
+    "5": 3553,
+    "6": 12818
+  }
+}
